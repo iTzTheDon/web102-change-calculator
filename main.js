@@ -10,7 +10,7 @@ function handleClickEvent(e) {
 
   let change = parseFloat(given) - parseFloat(cost);
 
- 
+ //calculates dollars
   let dollars = change / 1;
   dollars = Math.floor(change);
   change = change - 1 * dollars;
