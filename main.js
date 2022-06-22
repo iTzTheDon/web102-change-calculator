@@ -38,8 +38,12 @@ function handleClickEvent(e) {
   change = roundToTwo(change);
   document.getElementById("dollars-label").innerText = "dollars";
   document.getElementById("dollars-output").innerText = dollars;
+  document.getElementById("quarters-label").innerText = "quarters";
   document.getElementById("quarters-output").innerText = quarters;
+  document.getElementById("dimes-label").innerText = "dimes";
   document.getElementById("dimes-output").innerText = dimes;
+  document.getElementById("nickels-label").innerText = "nickels";
   document.getElementById("nickels-output").innerText = nickels;
+  document.getElementById("pennies-label").innerText = "pennies";
   document.getElementById("pennies-output").innerText = pennies;
 }
